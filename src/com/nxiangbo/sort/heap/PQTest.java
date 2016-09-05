@@ -1,4 +1,4 @@
-package com.nxiangbo.graph.sort.heap;
+package com.nxiangbo.sort.heap;
 
 public class PQTest {
 	public static void main(String[] args) {

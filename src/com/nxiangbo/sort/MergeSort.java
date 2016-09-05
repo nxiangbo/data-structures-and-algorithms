@@ -1,4 +1,4 @@
-package com.nxiangbo.graph.sort;
+package com.nxiangbo.sort;
 
 public class MergeSort {
 	private Comparable[] aux;

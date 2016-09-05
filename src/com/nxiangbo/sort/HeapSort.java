@@ -1,4 +1,4 @@
-package com.nxiangbo.graph.sort;
+package com.nxiangbo.sort;
 
 public class HeapSort {
 	
@@ -12,12 +12,12 @@ public class HeapSort {
 			sink(a, 1, n);
 		}
 	}
-	public void swim(Comparable[] a, int k, int n){
-		while(k>1 && less(a,k/2,k)){
-			swap(a, k/2, k);
-			k = k/2;
-		}
-	}
+//	public void swim(Comparable[] a, int k, int n){
+//		while(k>1 && less(a,k/2,k)){
+//			swap(a, k/2, k);
+//			k = k/2;
+//		}
+//	}
 	
 	public void sink(Comparable[] a, int k, int n){
 		while(2*k<=n){

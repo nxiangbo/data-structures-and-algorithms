@@ -2,7 +2,7 @@ package com.nxiangbo.graph.sp;
 
 import java.util.LinkedList;
 
-import com.nxiangbo.graph.sort.heap.IndexMinPQ;
+import com.nxiangbo.sort.heap.IndexMinPQ;
 
 public class DijkstraSP {
 	private DirectedEdge[] edgeTo;

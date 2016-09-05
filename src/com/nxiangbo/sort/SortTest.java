@@ -1,4 +1,4 @@
-package com.nxiangbo.graph.sort;
+package com.nxiangbo.sort;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;

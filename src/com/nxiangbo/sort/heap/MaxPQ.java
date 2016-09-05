@@ -1,7 +1,7 @@
-package com.nxiangbo.graph.sort.heap;
+package com.nxiangbo.sort.heap;
 
 public class MaxPQ<Key extends Comparable<Key>> {
-	private Key[] pq; //基于堆得完全二叉树存储于pq[1...n]中，pq[0]没有使用
+	private Key[] pq; //锟斤拷锟节堆碉拷锟斤拷全锟斤拷锟斤拷锟斤拷锟芥储锟斤拷pq[1...n]锟叫ｏ拷pq[0]没锟斤拷使锟斤拷
 	private int N = 0;
 	public MaxPQ(int maxN){
 		pq = (Key[]) new Comparable[maxN+1];

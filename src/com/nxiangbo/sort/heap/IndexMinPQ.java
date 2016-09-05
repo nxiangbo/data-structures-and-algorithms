@@ -1,4 +1,4 @@
-	package com.nxiangbo.graph.sort.heap;
+	package com.nxiangbo.sort.heap;
 
 import java.util.Iterator;
 import java.util.NoSuchElementException;

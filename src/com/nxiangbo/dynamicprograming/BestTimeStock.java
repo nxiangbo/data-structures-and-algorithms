@@ -1,7 +1,6 @@
 package com.nxiangbo.dynamicprograming;
 
 public class BestTimeStock {
-	//±©Á¦½â
 	public static int bestTimeBuyAndSellStock(int[] prices){
 		if(prices.length<=0){
 			return 0;

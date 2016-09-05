@@ -36,7 +36,7 @@ public class BinaryTree {
 	}
 	
 	/**
-	 * ʱ�临�Ӷ�O(N^2)
+	 * 时间复杂度(N^2)
 	 * @param root
 	 * @return
 	 */

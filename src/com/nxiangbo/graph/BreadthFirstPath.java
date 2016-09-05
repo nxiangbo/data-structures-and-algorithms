@@ -4,7 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.LinkedList;
 
-//bfs可以用于求解单源最短路径
+//bfs
 public class BreadthFirstPath {
 	private boolean[] marked;
 	private int[] edgeTo;

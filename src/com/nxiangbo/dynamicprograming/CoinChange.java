@@ -2,7 +2,6 @@ package com.nxiangbo.dynamicprograming;
 
 public class CoinChange {
 	public static int coinChange(int[] coins, int amount) {
-		//将res[]数组初始化为max
         int[] res = new int[amount+1];
         int max = amount+1;
         for (int i = 0; i < res.length; i++) {
